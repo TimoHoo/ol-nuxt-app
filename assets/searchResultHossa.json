@@ -1,0 +1,148 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "id" : "P_10216155",
+    "properties" : {
+      "placeId" : 10216155,
+      "placeVersionId" : 4,
+      "placeType" : 5010105,
+      "placeTypeDescription" : 5010105,
+      "placeTypeCategory" : 5,
+      "placeTypeGroup" : 501,
+      "placeTypeSubgroup" : 50101,
+      "placeElevation" : 283,
+      "tm35MapSheet" : "S5312F3",
+      "gslsMapSheet" : "451405A",
+      "rescueGridSquare" : "26R1B4",
+      "municipality" : "777",
+      "subregion" : "181",
+      "region" : "18",
+      "scaleRelevance" : 500000,
+      "placeCreationTime" : "2008-12-05T22:00:00Z",
+      "placeModificationTime" : "2022-10-21T08:05:27Z",
+      "placeDeletionTime" : null,
+      "name" : [ {
+        "placeNameId" : 40216155,
+        "placeNameVersionId" : 3,
+        "spelling" : "Hossan kansallispuisto",
+        "language" : "fin",
+        "languageOfficiality" : 1,
+        "languageDominance" : 1,
+        "placeNameSource" : 1,
+        "placeNameStatus" : 3,
+        "placeNameCreationTime" : "2008-12-05T22:00:00Z",
+        "placeNameModificationTime" : "2017-06-20T11:49:11Z",
+        "placeNameDeletionTime" : null
+      } ],
+      "source" : "geographic-names",
+      "gid" : "nlsfi:geographic-names#1",
+      "distance" : null,
+      "rank" : 1,
+      "country" : "Suomi",
+      "country_gid" : "whosonfirst:country:85633143",
+      "continent" : "Eurooppa",
+      "continent_gid" : "whosonfirst:continent:102191581",
+      "country_a" : "FIN",
+      "label" : "Hossan kansallispuisto",
+      "match_type" : "exact",
+      "accuracy" : "point",
+      "similarity" : 0.6060606060606061,
+      "confidence" : 0.8,
+      "label:region" : "Kainuu",
+      "label:subregion" : "Kehys-Kainuu",
+      "label:municipality" : "Suomussalmi",
+      "label:placeType" : "Kansallispuisto",
+      "label:placeTypeDescription" : "Valtion omistamalle alueelle yleiseksi nähtävyydeksi perustettu luonnonsuojelualue, josta on säädetty lailla.",
+      "label:placeTypeCategory" : "Suojellut kohteet",
+      "label:placeTypeGroup" : "Luonnonsuojelualueet",
+      "label:placeTypeSubgroup" : "Luonnonsuojelualueet"
+    },
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ 611838.405, 7262739.769 ]
+    }
+  } ],
+  "geocoding" : {
+    "status" : "success",
+    "metadata" : [ {
+      "rawTerm" : "hossa suomussalmi kansallispuisto",
+      "searchTerm" : "hossa",
+      "searchTermParts" : [ "hossa" ],
+      "seartchTermPartCount" : 1,
+      "matchedParts" : [ "kansallispuisto", "suomussalmi" ],
+      "matchingCodelists" : {
+        "municipality" : {
+          "777" : {
+            "value" : "777",
+            "label" : "Suomussalmi",
+            "status" : "valid",
+            "lang" : "eng",
+            "codelist" : "municipality",
+            "codelistgroup" : "geographic-names"
+          }
+        },
+        "placetype" : {
+          "5010105" : {
+            "value" : "5010105",
+            "label" : "Kansallispuisto",
+            "status" : "valid",
+            "lang" : "fin",
+            "codelist" : "placetype",
+            "codelistgroup" : "geographic-names"
+          }
+        }
+      },
+      "similarTerms" : [ {
+        "text" : "Kansallispuisto",
+        "similarity" : 0.5,
+        "word_similarity" : 1.0,
+        "count" : 1
+      }, {
+        "text" : "Suomussalmi",
+        "similarity" : 0.375,
+        "word_similarity" : 1.0,
+        "count" : 3
+      }, {
+        "text" : "suomi",
+        "similarity" : 0.1515151560306549,
+        "word_similarity" : 0.6666666865348816,
+        "count" : 1
+      }, {
+        "text" : "Puisto",
+        "similarity" : 0.14705882966518402,
+        "word_similarity" : 0.7142857313156128,
+        "count" : 1
+      }, {
+        "text" : "Suo",
+        "similarity" : 0.09090909361839294,
+        "word_similarity" : 0.75,
+        "count" : 1
+      } ]
+    } ],
+    "sources" : {
+      "geographic-names" : {
+        "status" : "success",
+        "duration" : 350,
+        "links" : [ ]
+      }
+    },
+    "query" : {
+      "sources" : "geographic-names",
+      "crs" : "EPSG:3067",
+      "requestCrs" : "http://www.opengis.net/def/crs/EPSG/0/4326",
+      "scaleDenominator" : 5000,
+      "excludesMaps" : { },
+      "text" : "hossa suomussalmi kansallispuisto",
+      "querySize" : 10
+    },
+    "version" : "2.0.1",
+    "attribution" : "https://www.maanmittauslaitos.fi/en/opendata-licence-cc40",
+    "engine" : {
+      "name" : "maanmittauslaitos.fi/geocoding",
+      "author" : "National Land Survey of Finland",
+      "version" : "2.0.1"
+    },
+    "timestamp" : 1684419532014
+  }
+}

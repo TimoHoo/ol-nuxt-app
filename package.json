@@ -1,0 +1,34 @@
+{
+  "name": "ol-nuxt-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -o",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.19",
+    "@iconify-json/mdi": "^1.1.66",
+    "@nuxt/ui": "^2.15.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/core": "^10.9.0",
+    "axios": "^1.6.8",
+    "nuxt": "^3.11.2",
+    "ol": "^9.1.0",
+    "ol-mapbox-style": "^12.3.0",
+    "proj4": "^2.11.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/proj4": "^2.5.5",
+    "@vueuse/nuxt": "^10.9.0",
+    "sass": "^1.74.1",
+    "typescript": "^5.4.4",
+    "vue-tsc": "^2.0.11"
+  }
+}
