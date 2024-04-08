@@ -3,7 +3,7 @@
 
 This is a repository for source files and web page of topographic vector tile map of Finland.
 Map includes search dialog from NLS geocoding service, including geographic names, street addresses and cadastral data.
-Source files are in 'main' branch and web page source / output in 'gh-pages' branch.
+Source files are in 'main' branch and web page compiled source files in '/docs' folder.
 
 Inspired by OpenLayers mapping library, NLS Finland open source API's and GitHub pages environment. Vue & Nuxt UI libraries are used for implementation.
 
