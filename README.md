@@ -1,4 +1,4 @@
-# Single page app for vector tiles from National Land Survey NLS of Finland 
+# Single page app for vector tiles from NLS of Finland 
 ## Timo Hoon OpenLayers vektorikarttoja
 
 This is a repository for source files and web page of topographic vector tile map of Finland.
