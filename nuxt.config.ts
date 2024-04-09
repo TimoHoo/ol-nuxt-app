@@ -12,13 +12,16 @@ export default defineNuxtConfig({
   typescript: {
     shim: false
   },
+
   ssr: false,
   spaLoadingTemplate: 'spa-loading-template.html',
 
   nitro: {
     preset: 'github-pages'
   },
-
+  vite: {
+    base: "https://timohoo.github.io/ol-nuxt-app/",
+  },
   devtools: { 
     enabled: true
   }
