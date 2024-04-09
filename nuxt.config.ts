@@ -15,6 +15,10 @@ export default defineNuxtConfig({
   ssr: false,
   spaLoadingTemplate: 'spa-loading-template.html',
 
+  nitro: {
+    preset: 'github-pages'
+  },
+
   devtools: { 
     enabled: true
   }
