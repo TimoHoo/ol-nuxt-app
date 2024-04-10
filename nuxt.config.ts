@@ -5,6 +5,12 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt'
     ],
+
+    app: {
+    baseURL: '/ol-nuxt-app/',
+    buildAssetsDir: 'assets'
+  },
+
   ui: {
     global: true,
     icons: ['heroicons', 'mdi']
@@ -16,9 +22,9 @@ export default defineNuxtConfig({
   ssr: false,
   spaLoadingTemplate: 'spa-loading-template.html',
 
-  nitro: {
-    preset: 'github-pages'
-  },
+//  nitro: {
+//    preset: 'github-pages'
+//  },
 //  vite: {
 //    base: "https://timohoo.github.io/ol-nuxt-app/",
 //  },
