@@ -19,9 +19,9 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'github-pages'
   },
-  vite: {
-    base: "https://timohoo.github.io/ol-nuxt-app/",
-  },
+//  vite: {
+//    base: "https://timohoo.github.io/ol-nuxt-app/",
+//  },
   devtools: { 
     enabled: true
   }
