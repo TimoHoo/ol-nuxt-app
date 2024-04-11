@@ -1,15 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+//    app: {
+//      baseURL: '/ol-nuxt-app/',
+//      buildAssetsDir: "/_nuxt/"
+//    },
+
   modules: [
     '@nuxt/ui',
     '@pinia/nuxt',
     '@vueuse/nuxt'
     ],
-
-    app: {
-    baseURL: '/ol-nuxt-app/',
-    buildAssetsDir: 'assets'
-  },
 
   ui: {
     global: true,
@@ -22,13 +22,8 @@ export default defineNuxtConfig({
   ssr: false,
   spaLoadingTemplate: 'spa-loading-template.html',
 
-//  nitro: {
-//    preset: 'github-pages'
-//  },
-//  vite: {
-//    base: "https://timohoo.github.io/ol-nuxt-app/",
-//  },
-  devtools: { 
+
+devtools: { 
     enabled: true
   }
   
