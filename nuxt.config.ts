@@ -1,10 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-//    app: {
-//      baseURL: '/ol-nuxt-app/',
-//      buildAssetsDir: "/_nuxt/"
-//    },
-
+    app: {
+      baseURL: '/ol-nuxt-app/',
+      buildAssetsDir: "/_nuxt/"
+    },
+    
   modules: [
     '@nuxt/ui',
     '@pinia/nuxt',
