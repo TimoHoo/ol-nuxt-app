@@ -22,7 +22,7 @@ class MMLAxiosparams {
 
 export function useUrlComposer( text: string ) {
   const params = parametritAxios
-  const apiKey = import.meta.env.VITE_MML_ApiKey2
+  const apiKey = '7cd2ddae-9f2e-481c-99d0-404e7bc7a0b2' //import.meta.env.VITE_MML_ApiKey2
   const authString = '&api-key=' + apiKey 
   const queryString = Object.entries({ text, ...params })
                               .filter(([,value]) => value)
